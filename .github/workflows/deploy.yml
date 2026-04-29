@@ -13,7 +13,7 @@ jobs:
   # 1) 프론트(React/Vite) 빌드 & Public(Nginx) 배포
   # 배포되는 환경에 대해서 기본적인 설정을 잡아놓는 공간
   build-and-deploy-frontend:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
     defaults:
       run:
         shell: bash
