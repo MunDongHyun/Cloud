@@ -12,7 +12,7 @@ function App() {
     // front 데이터를 server로 전송 
     axios.post('/myweb/getData', {
       data : data
-    }).then(res => {
+    }).then(res => { 
       console.log('res', res.data)
       setObj(res.data)
     })
